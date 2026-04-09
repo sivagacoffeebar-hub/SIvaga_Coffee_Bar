@@ -184,7 +184,9 @@ export function RevampedHomePage() {
   };
 
   const onHeroWheel = (event: React.WheelEvent<HTMLElement>) => {
-    event.preventDefault();
+    if (event.cancelable) {
+      event.preventDefault();
+    }
     const delta = event.deltaY || event.deltaX;
     if (Math.abs(delta) < 8) return;
 
