@@ -32,7 +32,7 @@ const menuShowcase = [
     description:
       "Crispy, savory, and sweet cafe bites crafted to pair perfectly with your hot beverage rituals.",
     image:
-      "https://rakskitchen.net/wp-content/uploads/2014/01/11992861243_4552794670_z-500x500.jpg",
+      "/shop-7.jpeg",
     icon: "◉",
     imageClass: "object-center",
   },
@@ -40,27 +40,27 @@ const menuShowcase = [
 const heroSlides = [
   {
     image:
-      "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1800&q=80",
+      "/shop-5.jpeg",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1800&q=80",
+      "/shop-6.jpeg",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=1800&q=80",
+      "/shop-8.jpeg",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1800&q=80",
+      "/shop-12.jpeg",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1800&q=80",
+      "/shop-14.jpeg",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1800&q=80",
+      "/shop-11.jpeg",
   },
 ];
 const vibeCards = [
@@ -598,15 +598,15 @@ export function RevampedHomePage() {
               <div className="grid grid-cols-2 gap-3">
                 {[
                   {
-                    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1100&q=80",
+                    src: "/shop-8.jpeg",
                     title: "Velvet Roast Stories",
                   },
                   {
-                    src: "https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1100&q=80",
+                    src: "/shop-9.jpeg",
                     title: "Midnight Mocha Mood",
                   },
                   {
-                    src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1100&q=80",
+                    src: "/shop-10.jpeg",
                     title: "Sunrise Sip Sessions",
                   },
                 ].map((item, idx) => (
@@ -648,17 +648,17 @@ export function RevampedHomePage() {
               <div className="relative h-[450px] w-[510px]">
                 {[
                   {
-                    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1100&q=80",
+                    src: "/shop-8.jpeg",
                     alt: "Sivaga shop ambience",
                     enter: { x: -120, y: -80, rotate: -8, opacity: 0 },
                   },
                   {
-                    src: "https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1100&q=80",
+                    src: "/shop-9.jpeg",
                     alt: "Coffee bar interior",
                     enter: { x: 120, y: 60, rotate: 8, opacity: 0 },
                   },
                   {
-                    src: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1100&q=80",
+                    src: "/shop-10.jpeg",
                     alt: "Coffee and snack table",
                     enter: { x: -80, y: 110, rotate: -10, opacity: 0 },
                   },
@@ -735,9 +735,9 @@ export function RevampedHomePage() {
           </div>
           <div className="grid min-h-[400px] gap-4 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr]">
             {[
-              "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1400&q=80",
-              "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1100&q=80",
-              "https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?auto=format&fit=crop&w=1100&q=80",
+              "/shop-11.jpeg",
+              "/shop-12.jpeg",
+              "/shop-1.jpeg",
             ].map((img, idx) => (
               <motion.article
                 key={img}
